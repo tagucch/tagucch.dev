@@ -203,6 +203,15 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    oxlint-tsgolint:
+      specifier: 7.0.2001
+      version: 7.0.2001
+    typescript:
+      specifier: 7.0.2
+      version: 7.0.2
+
 importers:
 
   .:
@@ -214,13 +223,13 @@ importers:
         specifier: ^1.81.0
         version: 1.81.0(oxlint-tsgolint@7.0.2001)
       oxlint-tsgolint:
-        specifier: ^7.0.2001
+        specifier: 'catalog:'
         version: 7.0.2001
       turbo:
         specifier: ^2.10.12
         version: 2.10.12
       typescript:
-        specifier: ^7.0.2
+        specifier: 'catalog:'
         version: 7.0.2
 
   apps/diary: {}
@@ -247,7 +256,7 @@ importers:
         specifier: ^19.2.7
         version: 19.2.7(@types/react@19.2.18)
       typescript:
-        specifier: ^7.0.2
+        specifier: 'catalog:'
         version: 7.0.2
       vite:
         specifier: ^8.2.2

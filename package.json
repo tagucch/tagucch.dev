@@ -20,8 +20,8 @@
   "devDependencies": {
     "oxfmt": "^0.66.0",
     "oxlint": "^1.81.0",
-    "oxlint-tsgolint": "catalog",
+    "oxlint-tsgolint": "catalog:",
     "turbo": "^2.10.12",
-    "typescript": "catalog"
+    "typescript": "catalog:"
   }
 }
