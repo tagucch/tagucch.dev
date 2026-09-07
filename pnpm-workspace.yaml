@@ -4,3 +4,6 @@ packages:
 allowBuilds:
   esbuild: true
   workerd: true
+catalog:
+  typescript: 7.0.2
+  oxlint-tsgolint: 7.0.2001
