@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+
+# React Router (型生成などの自動生成物)
+.react-router/
+
+# Turborepo cache
+.turbo/
+
+# Wrangler (ローカル状態・ローカル用シークレット)
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+
+# OS
+.DS_Store
+
+# editor
+.idea/
