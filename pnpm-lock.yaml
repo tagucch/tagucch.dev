@@ -195,6 +195,9 @@ importers:
 
   apps/portal:
     dependencies:
+      isbot:
+        specifier: ^5.2.2
+        version: 5.2.2
       react:
         specifier: ^19.2.8
         version: 19.2.8
