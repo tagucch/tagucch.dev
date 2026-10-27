@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "preview": "wrangler dev",
+    "typecheck": "react-router typegen && tsc",
+    "deploy": "wrangler deploy"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tagucch-dev-portal",
+  "compatibility_date": "2026-09-08",
+  "assets": {
+    "directory": "./build/client",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+  // ドメインを Cloudflare に載せたあとで有効化する
+  // "workers_dev": false,
+  // "routes": [{ "pattern": "tagucch.dev", "custom_domain": true }]
+}
