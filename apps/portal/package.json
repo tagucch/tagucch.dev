@@ -1,20 +1,20 @@
 {
   "name": "portal",
   "version": "1.0.0",
+  "private": true,
   "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "react-router dev",
     "build": "react-router build",
     "preview": "wrangler dev",
     "typecheck": "react-router typegen && tsc",
-    "deploy": "wrangler deploy"
+    "deploy": "react-router build && wrangler deploy"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "private": true,
   "dependencies": {
     "isbot": "^5.2.2",
     "react": "^19.2.8",

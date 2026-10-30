@@ -2,6 +2,10 @@
   "name": "tagucch.dev",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "lint": "oxlint",
@@ -11,24 +15,21 @@
     "check": "pnpm fmt:check && pnpm lint",
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "deploy:portal": "turbo run deploy --filter=portal"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^12.15.0",
-      "onFail": "download"
-    }
-  },
-  "type": "module",
   "devDependencies": {
     "oxfmt": "^0.66.0",
     "oxlint": "^1.81.0",
     "oxlint-tsgolint": "catalog:",
     "turbo": "^2.10.12",
     "typescript": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12.15.0",
+      "onFail": "download"
+    }
   }
 }
